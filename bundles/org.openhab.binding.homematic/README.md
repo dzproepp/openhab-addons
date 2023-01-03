@@ -180,6 +180,15 @@ If a large number of devices are connected to the gateway, the default buffersiz
 In this case, e.g. the discovery fails.
 With this setting the buffer size can be adjusted. The value is specified in kB.
 
+- **username**
+Username for communication with gateway - if empty, none is used.
+
+- **password**
+Password communication with gateway - if empty, none is used.
+
+- **https**
+Use https for communication with gateway (true/false)
+
 The syntax for a bridge is:
 
 ```java
